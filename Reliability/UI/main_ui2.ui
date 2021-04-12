@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>845</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>自动化测试平台</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget {
+background:rgb(255, 255, 255);
+}
+QPushButton {
+background: #FFFFFF;
+box-shadow: 0 1px 7px 0 rgba(0,0,0,0.09);
+font-family: PingFangSC-Medium;
+font-size: 16px rgba(0,0,0,0.85);
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_version">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>580</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	font:  12pt;
+	color: #565E6C;
+}</string>
+    </property>
+    <property name="text">
+     <string>V1.0.0 2020-06-18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_scene_list">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>40</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: #FFFFFF;
+border-radius: 5px;
+border-radius: 5px;
+font-family: &quot;微软雅黑&quot;;
+font-size: 14px;
+color: #2C2E3A;
+text-align: center;
+}
+QPushButton:hover{
+color:rgb(255, 193, 7);
+}</string>
+    </property>
+    <property name="text">
+     <string>场景管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_task_list">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>40</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: #FFFFFF;
+border-radius: 5px;
+border-radius: 5px;
+font-family: &quot;微软雅黑&quot;;
+font-size: 14px;
+color: #2C2E3A;
+text-align: center;
+}
+QPushButton:hover{
+color:rgb(255, 193, 7);
+}</string>
+    </property>
+    <property name="text">
+     <string>任务管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_script">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>40</y>
+      <width>80</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: #FFFFFF;
+border-radius: 5px;
+border-radius: 5px;
+font-family: &quot;微软雅黑&quot;;
+font-size: 14px;
+color: #2C2E3A;
+text-align: center;
+}
+QPushButton:hover{
+color:rgb(255, 193, 7);
+}</string>
+    </property>
+    <property name="text">
+     <string>脚本管理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_effectanalysis">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>40</y>
+      <width>211</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 24pt &quot;微软雅黑&quot;;
+font-size: 18px;
+color: #FFFFFF;
+</string>
+    </property>
+    <property name="text">
+     <string>    系统可靠性</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_help">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>80</y>
+      <width>92</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: &quot;微软雅黑&quot;;
+font-size: 14px;
+color: #000000;
+min-width: 90px;
+min-height: 29px;
+border: 0px;
+icon: url(:/icon/指引.ico)</string>
+    </property>
+    <property name="text">
+     <string>使用指引</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../src/icon/使用指引.svg</normaloff>../src/icon/使用指引.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>13</width>
+      <height>13</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>lb_effectanalysis</zorder>
+   <zorder>label_version</zorder>
+   <zorder>btn_scene_list</zorder>
+   <zorder>btn_task_list</zorder>
+   <zorder>btn_script</zorder>
+   <zorder>btn_help</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

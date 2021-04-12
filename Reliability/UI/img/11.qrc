@@ -1,0 +1,17 @@
+<RCC>
+  <qresource prefix="img">
+    <file>4.svg</file>
+    <file>5.svg</file>
+    <file>down.png</file>
+    <file>up.png</file>
+    <file>icon_monkey压测.svg</file>
+    <file>首页图标.svg</file>
+    <file>icon_待机压测.svg</file>
+    <file>icon_录制脚本.svg</file>
+    <file>btn-创建任务.svg</file>
+    <file>icon_视频类压测.svg</file>
+    <file>icon_信源煲机.svg</file>
+    <file>icon_开关机压测.svg</file>
+    <file>bg.png</file>
+  </qresource>
+</RCC>

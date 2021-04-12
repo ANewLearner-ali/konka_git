@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="8px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>展开</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.2458984,4.10292969 C12.2458984,4.23417969 12.2021484,4.36679687 12.1146484,4.47753906 L7.45390625,10.2716797 C7.34042969,10.4125 7.16953125,10.4945312 6.98769531,10.4945312 C6.80722656,10.4945312 6.63496094,10.4125 6.52285156,10.2716797 L1.88671875,4.50214844 C1.68027344,4.24511719 1.72128906,3.86914062 1.97832031,3.66269531 C2.23535156,3.45625 2.61132813,3.49726562 2.81777344,3.75429687 L6.9890625,8.94414062 L11.1835938,3.72832031 C11.3900391,3.47128906 11.7660156,3.43027344 12.0230469,3.63671875 C12.1693359,3.75566406 12.2458984,3.92792969 12.2458984,4.10292969 Z" id="path-1"></path>
+    </defs>
+    <g id="组件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件/选择框/小/默认" transform="translate(-82.000000, -12.000000)">
+            <g id="选择框/输入中/s">
+                <g id="Select/_Icon/Down" transform="translate(81.000000, 9.000000)">
+                    <g id="Group">
+                        <rect id="Rectangle" x="0" y="0" width="14" height="14"></rect>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill-opacity="0.25" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

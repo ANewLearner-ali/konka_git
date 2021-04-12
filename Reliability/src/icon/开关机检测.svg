@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>开关机检测</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.系统可靠性" transform="translate(-284.000000, -275.000000)">
+            <g id="开关机检测" transform="translate(285.000000, 275.000000)">
+                <path d="M4.45796715,6.54575858 C1.7087729,9.12092828 0,12.7279886 0,16.7208566 C0,24.5450768 6.56140113,30.8878605 14.6552996,30.8878605 C22.7491979,30.8878605 29.310599,24.5450768 29.310599,16.7208566 C29.310599,12.7331075 27.6062046,9.13017739 24.8632001,6.55566771" id="路径" stroke="#444444" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M14.8780488,8.70414851e-14 L15.1219512,8.70414851e-14 C15.2566548,8.70414851e-14 15.3658537,0.572963706 15.3658537,1.27975025 L15.3658537,12.5560403 L14.6341463,12.5560403 L14.6341463,1.27975025 C14.6341463,0.572963706 14.7433452,8.70414851e-14 14.8780488,8.70414851e-14 Z" id="矩形" fill="#1890FF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

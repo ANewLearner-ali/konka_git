@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="19px" viewBox="0 0 32 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>多媒体兼容</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5.系统可靠性" transform="translate(-284.000000, -412.000000)">
+            <g id="多媒体兼容" transform="translate(285.000000, 413.000000)">
+                <rect id="矩形" stroke="#444444" stroke-width="0.625" stroke-linejoin="round" x="0" y="0" width="21.7705537" height="17.5941617" rx="1.16627966"></rect>
+                <ellipse id="椭圆形" fill="#1890FF" cx="4.43633898" cy="4.16322421" rx="1" ry="1"></ellipse>
+                <path d="M21.7705537,5.78734622 L29.0598015,0.964565572 C29.5428904,0.644939788 29.9345113,0.804259054 29.9345113,1.32041511 L29.9345113,16.2737466 C29.9345113,16.7899027 29.5428904,16.9492219 29.0598015,16.6295962 L21.7705537,11.8068155 L21.7705537,5.78734622 Z" id="矩形" stroke="#444444" stroke-width="0.625" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
