@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_开关机压测</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自动化测试平台1备份" transform="translate(-170.000000, -186.000000)">
+            <g id="icon/m/default/开关机压测" transform="translate(170.000000, 186.000000)">
+                <g id="编组" transform="translate(7.837399, 5.867682)">
+                    <path d="M6.0925551,8.30767308 C2.33532296,11.8796827 0,16.8830244 0,22.4215186 C0,33.2744692 8.96724821,42.072524 20.0289094,42.072524 C31.0905705,42.072524 40.0578187,33.2744692 40.0578187,22.4215186 C40.0578187,16.8901247 37.7284796,11.892512 33.9797068,8.321418" id="路径" stroke="#444444" stroke-width="3.74453523" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M19.1580872,0.228072467 L20.8997315,0.228072467 C21.8616151,0.228072467 22.6413758,1.02282858 22.6413758,2.00320992 L22.6413758,17.6445154 L17.4164429,17.6445154 L17.4164429,2.00320992 C17.4164429,1.02282858 18.1962036,0.228072467 19.1580872,0.228072467 Z" id="矩形" fill="#1890FF" fill-rule="nonzero"></path>
+                </g>
+                <rect id="64" x="0" y="-2.07255657e-07" width="55.9814237" height="55.9814237"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

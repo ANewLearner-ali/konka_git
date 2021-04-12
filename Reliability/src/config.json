@@ -1,0 +1,128 @@
+{
+	"scene_tv": {
+		"comment": "信源煲机场景",
+		"channel_switch_interval": {
+			"val": 5, 
+			"unit": "hour",
+			"comment": "通道切换的时间间隔"
+		},
+		"performance_interval": {
+			"val": 10, 
+			"unit": "minute",
+			"comment": "性能检测的时间间隔"
+		},
+		"check_interval": {
+			"val": 30, 
+			"unit": "minute",
+			"comment": "检测的时间间隔"
+		}
+	},
+	"scene_media": {
+		"comment": "视频类压测场景",
+		"brand_switch_interval": {
+			"val": 60,
+			"unit": "second",
+			"comment": "视频切换的时间间隔"
+		},
+		"performance_interval": {
+			"val": 10, 
+			"unit": "minute",
+			"comment": "性能检测的时间间隔"
+		},
+		"check_interval": {
+			"val": 30,
+			"unit": "second",
+			"comment": "检测的时间间隔"
+		}
+	},
+	"scene_monkey_logic": {
+		"comment": "逻辑monkey场景",
+		"switch_interval": {
+			"val": 2, 
+			"unit": "hour",
+			"comment": "各个小场景的切换间隔"
+		},
+		"check_interval": {
+			"val": 2, 
+			"unit": "hour",
+			"comment": "检测的时间间隔"
+		},
+		"multimedia": {
+			"val": 10, 
+			"unit": "second",
+			"comment": "多媒体播放时长"
+		},
+		"multimedia_page": {
+			"val": 3, 
+			"unit": "second",
+			"comment": "多媒体轮播页面切换等待时长"
+		}
+	}, 
+	"scene_monkey_global": {
+		"comment": "全局monkey场景",
+		"check_interval": {
+			"val": 2, 
+			"unit": "hour",
+			"comment": "检测的时间间隔"
+		}
+	},
+	"scene_boot_enter": {
+		"comment": "开机直达场景",
+		"on2check_interval": {
+			"val": 70,
+			"unit": "second",
+			"comment": "开机到检测的时间间隔"
+		},
+		"dc_off_interval": {
+			"val": 20, 
+			"unit": "second",
+			"comment": "待机等待时长"
+		}
+	},
+	"scene_on_and_off": {
+		"comment": "开关机场景",
+		"on2check_interval": {
+			"val": 40,
+			"unit": "second",
+			"comment": "开机到检测的时间间隔"
+		},
+		"dc_off_interval": {
+			"val": 20, 
+			"unit": "second",
+			"comment": "待机等待时长"
+		},
+		"ir_interval": {
+			"val": 5, 
+			"unit": "second",
+			"comment": "一键检测中，发送红外键值后等待时长"
+		},
+		"bt_interval": {
+			"val": 10, 
+			"unit": "second",
+			"comment": "一键检测中，发送蓝牙语音键后等待时长"
+		}
+	},
+	"scene_wake": {
+		"comment": "待机唤醒场景",
+		"dc_off_timeout": {
+			"val": 60,
+			"unit": "second",
+			"comment": "关机超时时长"
+		},
+		"wake_up_timeout": {
+			"val": 80, 
+			"unit": "second",
+			"comment": "唤醒超时时长"
+		},
+		"wake_up_timeout_quick": {
+			"val": 10, 
+			"unit": "second",
+			"comment": "快速待机唤醒超时时长"
+		}
+		
+	},
+	"tool_config": {
+		"log_dir": "D:\\kk_log\\RELIABILITY",
+		"output": "True"
+	}
+}

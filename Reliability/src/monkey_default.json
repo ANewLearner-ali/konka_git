@@ -1,0 +1,36 @@
+{
+	"comment1": "monkey配置文件",
+	"comment2": "按照需求实现的三种模式：",
+	"comment3": "1、monkey模式：执行monkey；mode设置为monkey，并设置main_activity，如果同时设置了cmd，则优先执行cmd的monkey指令",
+	"comment4": "2、normal模式：执行串口命令；mode设置为normal，并设置cmd字段，该字段值是一个串口命令",
+	"comment5": "3、media模式：随机起播任意多媒体资源；mode设置为media，directory设置为多媒体资源根目录，底下一般需要放置 视频 音乐 图片 这三个子目录",
+	"com.konka.livelauncher": {
+		"main_activity": "com.konka.livelauncher/com.konka.livelauncher.Launcher", 
+		"mode": "monkey", 
+		"cmd": ""
+	}, 
+	"com.hdp.fun": {
+		"main_activity": "", 
+		"mode": "normal", 
+		"cmd": ""
+	}, 
+	"com.konka.cloudsearch": {
+		"main_activity": "com.konka.cloudsearch/com.konka.cloudsearch.activity.main.MainActivity", 
+		"mode": "monkey", 
+		"cmd": ""
+	}, 
+	"com.tencent.qqmusictv": {
+		"main_activity": "com.tencent.qqmusictv/com.tencent.qqmusictv.app.activity.AppStarterActivity", 
+		"mode": "monkey", 
+		"cmd": ""
+	},
+	"android": {
+		"mode": "normal",
+		"cmd": "sleep 5"
+	},
+	"com.konka.multimedia": {
+		"mode": "media",
+		"directory": "/mnt/usb/sda1/a_xingneng"
+	}
+	
+}

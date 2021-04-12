@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>icon_视频类压测</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="自动化测试平台1备份" transform="translate(-702.000000, -185.000000)">
+            <g id="icon_视频类压测" transform="translate(702.000000, 185.000000)">
+                <rect id="矩形" opacity="0.800478981" fill-rule="nonzero" x="0" y="0" width="55.9814237" height="55.9814237"></rect>
+                <g id="编组-5" transform="translate(4.043103, 14.306364)">
+                    <rect id="矩形" stroke="#444444" stroke-width="3.73209491" stroke-linejoin="round" x="0" y="0" width="34.8328859" height="27.368696" rx="1.86604746"></rect>
+                    <circle id="椭圆形" fill="#1890FF" cx="8.08620564" cy="7.46418983" r="2.48806328"></circle>
+                    <path d="M34.8328859,9.00253857 L46.4956825,1.50043533 C47.2686246,1.00323967 47.895218,1.25106964 47.895218,2.05397907 L47.895218,25.314717 C47.895218,26.1176264 47.2686246,26.3654564 46.4956825,25.8682607 L34.8328859,18.3661575 L34.8328859,9.00253857 Z" id="矩形" stroke="#444444" stroke-width="3.73209491" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

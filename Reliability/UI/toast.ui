@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>364</width>
+    <height>263</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(85, 170, 255);
+border-radius: 6px;
+color:rgb(255,255,255);
+font: 15px</string>
+   </property>
+   <property name="text">
+    <string>继续创建</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>361</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(248, 248, 248);
+border-radius: 6px;
+color:rgb(0,0,0);
+border:2px rgb(117,174,138);
+font: 75 16pt &quot;新宋体&quot;;
+border-style: solid;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(85, 170, 255);
+border-radius: 6px;
+color:rgb(255,255,255);
+font:15px</string>
+   </property>
+   <property name="text">
+    <string>场景列表</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

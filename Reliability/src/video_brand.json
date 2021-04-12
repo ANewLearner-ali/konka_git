@@ -1,0 +1,44 @@
+{
+	"腾讯视频": [
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=1&cover_id=e7ewrmdijejinz5'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=1&cover_id=rjae621myqca41h'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=7&video_id=f0033o4u4de'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=7&cover_id=g2gp8n66b85hfew'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=7&cover_id=mzc002009kta0eh'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=7&cover_id=mzc00200eci8jh9'",
+		"am start -p  com.ktcp.video -d  'tenvideo2://?action=7&cover_id=mzc002002kakfxp'"
+	],
+	"爱奇艺": [
+		"am broadcast -a com.gitvdemokonka.video.action.ACTION_PLAYVIDEO --es playInfo '{playType:'recommend',chnId:'2',videoId:'203199301',episodeId:'544362400',customer:'konka'}' -f 0x00000020",
+		"am broadcast -a com.gitvdemokonka.video.action.ACTION_PLAYVIDEO --es playInfo '{'playType':'recommend','videoId':'886472200','episodeId':'886472200','chnId':'10','history':'0','customer':'konka'}' -f 0x00000020"
+	],
+	"酷喵": [
+		"am start -a android.intent.action.VIEW -d ykott://tv/detail?url=tv/v3/show/detail?id=e0061c0e1d41487694e2'&'fullscreen=true'&'isBackYingHome=false'&'from=com.konka.livelauncher",
+		"am start -a android.intent.action.VIEW -d ykott://tv/detail?url=tv/v3/show/detail?id=224958'&'fullscreen=true'&'isBackYingHome=false'&'from=com.konka.livelauncher"
+	],
+	"QQ音乐MV": [
+		""
+	],
+	"QQ音乐": [
+		"am broadcast -n com.tencent.qqmusictv/com.tencent.qqmusictv.app.reciver.BroadcastReceiverCenterForThird -d 'musictv://?pull_from=11428&action=15&m0=307&mb=true'"
+	],
+	"HDP": [
+		"am start -n hdpfans.com/com.hdpfans.app.ui.live.LivePlayActivity "
+	],
+	"电视家": [
+		"am start -n com.elinkway.tvlive2/com.elinkway.tvlive2.activity.SplashActivity"
+	],
+	"全民K歌": [
+		"am start -p com.tencent.karaoketv -a android.intent.action.VIEW -d 'karaoketv://?action=16&pull_from=12121&m0=000CcSzz0oHi5j&m1=0&m2=true&mb=true'"
+	],
+	"易学4.2": [
+		"am start -p com.konka.apkhall.edu -a  yixue.action.START_OPEN -d 'yixue://?action=8&episodeid=5005&courseid=491'"
+	],
+	"易学5.0": [
+		"am start -p com.konka.apkhall.edu -a  yixue.action.START_OPEN -d 'yixue://?action=12&aid=1158591035242971&mid=2158591147095733'"
+	],
+
+	"芒果TV": [
+		"am start -p com.hunantv.license -a  android.intent.action.VIEW -d 'mgtvapp://vod/player?clipId=337284&from=com.hunantv.license&action_source_id=KJDQ&type=3'"
+	]
+}

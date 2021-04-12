@@ -1,0 +1,36 @@
+# 使用说明
+# 以'#'号开头的是注释，不算入脚本操作
+# 该脚本支持三种操作:
+# 	短按红外	格式：	key				例如：up						解释：短按上键
+#	长按红外	格式：	key delay		例如：up 10						解释：长按10秒上键
+#	等待		格式：	sleep delay		例如：sleep 10					解释：等待10秒
+# 	其中key可选有：
+#		up
+#		down
+#		left
+#		right
+#		ok
+#		volume_up
+#		volume_down
+#		channel_up
+#		channel_down
+#		back
+#		home
+#		more
+#		source
+#		power
+#		menu
+#常用android keycode如下，其他的请自行百度。
+#KEYCODE_ENTER 回车键66
+#KEYCODE_DPAD_UP 导航键 向上19 
+#KEYCODE_DPAD_DOWN 导航键 向下20 
+#KEYCODE_DPAD_LEFT 导航键 向左21 
+#KEYCODE_DPAD_RIGHT 导航键 向右22
+#KEYCODE_HOME 按键Home3 
+#KEYCODE_MENU 菜单键82 
+#KEYCODE_BACK 返回键4
+#KEYCODE_VOLUME_UP 音量增加键24 
+#KEYCODE_VOLUME_DOWN 音量减小键25 
+#注意事项
+#   1、串口打开步骤的最后一步建议加上3s以上的等待。因为串口打开后可能设备没有马上响应，加上适当等待后面的自动化操作才能正常进行，不然可能存在串口连接不上问题。
+sleep 3

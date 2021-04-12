@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1001</width>
+    <height>575</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>可靠性煲机工具</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1001</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255,255,255);
+background-color:rgb(91,155,213);
+font-size:30px;
+font-weight:normal;
+font-family:Arial;</string>
+    </property>
+    <property name="text">
+     <string>平台可靠性自动化压测工具</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::LinksAccessibleByKeyboard</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>开关机压测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>180</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>信源煲机</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>180</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>视频类压测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>360</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>待机压测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>360</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>Monkey压测</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>360</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(255, 255, 255);
+font: 75 18pt &quot;新宋体&quot;;
+background-color: rgb(90, 155, 213);
+border: 2px solid rgb(65, 133, 156);
+border-radius:12px
+}</string>
+    </property>
+    <property name="text">
+     <string>录制脚本</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>530</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Calibri&quot;;</string>
+    </property>
+    <property name="text">
+     <string>V1.0.0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>50</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 50, 0);
+font: 15pt &quot;新宋体&quot;;
+background-color: rgb(85, 142, 213);
+border: 1px solid rgb(0, 0, 0);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>场景列表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>50</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 50, 0);
+font: 15pt &quot;新宋体&quot;;
+background-color: rgb(85, 142, 213);
+border: 1px solid rgb(0, 0, 0);
+
+}</string>
+    </property>
+    <property name="text">
+     <string>脚本列表</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>60</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color: rgb(0, 0, 0);
+font: 13pt &quot;新宋体&quot;;
+background-color: rgb(85, 142, 213);
+border: 1px solid rgb(0, 0, 0);
+}
+QPushButton:hover{
+background-color: rgb(10, 169, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>脚本调试</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

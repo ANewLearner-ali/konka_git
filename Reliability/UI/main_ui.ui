@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>自动化测试平台</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#centralwidget {
+background-image: url(:/img/bg.png)
+}
+QPushButton {
+background: #FFFFFF;
+box-shadow: 0 1px 7px 0 rgba(0,0,0,0.09);
+font-family: PingFangSC-Medium;
+font-size: 16px rgba(0,0,0,0.85);
+}
+QLabel {
+background-image:url();
+}
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_switch">
+    <property name="geometry">
+     <rect>
+      <x>125</x>
+      <y>152</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>开关机检测</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_开关机压测.svg</normaloff>:/img/icon_开关机压测.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_source">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>150</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>信源检测</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_信源煲机.svg</normaloff>:/img/icon_信源煲机.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_media">
+    <property name="geometry">
+     <rect>
+      <x>126</x>
+      <y>314</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>多媒体兼容性</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_视频类压测.svg</normaloff>:/img/icon_视频类压测.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_wake">
+    <property name="geometry">
+     <rect>
+      <x>657</x>
+      <y>152</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>待机检测</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_待机压测.svg</normaloff>:/img/icon_待机压测.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_monkey">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>315</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>系统可靠性</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_monkey压测.svg</normaloff>:/img/icon_monkey压测.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_recorder">
+    <property name="geometry">
+     <rect>
+      <x>657</x>
+      <y>314</y>
+      <width>241</width>
+      <height>137</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>脚本开发</string>
+    </property>
+    <property name="icon">
+     <iconset resource="img/11.qrc">
+      <normaloff>:/img/icon_录制脚本.svg</normaloff>:/img/icon_录制脚本.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>56</width>
+      <height>56</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_version">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>590</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: PingFangSC-Regular;
+font-size: 12pt;
+color: rgb(0,0,0);
+</string>
+    </property>
+    <property name="text">
+     <string>V1.0.0 2020-06-18</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_scene_list">
+    <property name="geometry">
+     <rect>
+      <x>392</x>
+      <y>475</y>
+      <width>241</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background: #FFFFFF;
+box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);
+}</string>
+    </property>
+    <property name="text">
+     <string>场景管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_task_list">
+    <property name="geometry">
+     <rect>
+      <x>658</x>
+      <y>475</y>
+      <width>241</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>任务管理</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_script">
+    <property name="geometry">
+     <rect>
+      <x>126</x>
+      <y>475</y>
+      <width>241</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:  rgb(24,144,255)
+font: 13pt &quot;新宋体&quot;;
+background-color: rgb(24,144,255)
+border: 1px solid rgb(0, 0, 0);
+}
+QPushButton:hover{
+background-color: rgb(10, 169, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>脚本管理</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_name">
+    <property name="geometry">
+     <rect>
+      <x>172</x>
+      <y>63</y>
+      <width>161</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: PingFangSC-Semibold;
+font-size: 23px;
+color: rgba(0,0,0,0.85);
+line-height: 23.61px;</string>
+    </property>
+    <property name="text">
+     <string>自动化测试平台</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_e_nane">
+    <property name="geometry">
+     <rect>
+      <x>173</x>
+      <y>88</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: PingFangSC-Regular;
+font-size: 10.01px;
+color: rgba(0,0,0,0.45);
+line-height: 15.74px;</string>
+    </property>
+    <property name="text">
+     <string>Automated test platform</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_logo">
+    <property name="geometry">
+     <rect>
+      <x>109</x>
+      <y>45</y>
+      <width>63</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image:url();
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="img/11.qrc">:/img/首页图标.svg</pixmap>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img/11.qrc"/>
+ </resources>
+ <connections/>
+</ui>

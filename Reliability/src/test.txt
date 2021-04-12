@@ -1,0 +1,33 @@
+# 使用说明
+# 以'#'号开头的是注释，不算入脚本操作
+# 该脚本支持四种操作:
+# 	短按红外	格式：	key				例如：up						解释：短按上键
+#	长按红外	格式：	key delay		例如：up 10						解释：长按10秒上键
+#	等待		格式：	sleep delay		例如：sleep 10					解释：等待10秒
+#	命令		格式：	cmd cmd_string	例如：cmd svc wifi disable 		解释：输入串口命令 "svc wifi disable"， 即关闭wifi
+# 	其中key可选有：
+#		up
+#		down
+#		left
+#		right
+#		ok
+#		volume_up
+#		volume_down
+#		channel_up
+#		channel_down
+#		back
+#		home
+#		more
+#		source
+#		power
+#		menu
+#注意事项
+#   1、打开串口最后的步骤需要加上一定时间的等待，即恢复出厂所需要的等待时间。
+menu
+sleep 2
+menu 2
+up
+up
+up
+sleep 0.5
+up
